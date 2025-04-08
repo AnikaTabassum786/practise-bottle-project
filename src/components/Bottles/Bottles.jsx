@@ -22,8 +22,8 @@ const Bottles = ({ bottlesPromise }) => {
                 {
                     cart.map((c)=>{
                         return(
-                            <div key={c.id}>
-                             <img src={c.img} alt="" />
+                            <div  key={c.id}>
+                             <img width={100} src={c.img} alt="" />
                             </div>
                         )
                     })
